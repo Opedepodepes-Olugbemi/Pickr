@@ -1,0 +1,4 @@
+.replit
+.replit.nix
+venv
+db.sqlite3
