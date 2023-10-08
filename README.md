@@ -10,6 +10,7 @@ This is a template to get you started with Python on Replit. It's ready to go so
 python
 import secrets
 secrets.token_urlsafe(32)
+
 ```
 2. Hit run!
 
