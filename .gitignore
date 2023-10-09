@@ -1,4 +1,7 @@
-.replit
-.replit.nix
-venv
+*.replit
+
+*.replit.nix
+
+/venv
+
 db.sqlite3
