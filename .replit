@@ -1,12 +1,13 @@
 # The command that runs the program.
-run = ["python3", "manage.py", "runserver", "0.0.0.0:3000"]
+run = ["reflex", "run", "dev"]
 # The primary language of the repl. There can be others, though!
 language = "python3"
 # The main file, which will be shown by default in the editor.
-entrypoint = "manage.py"
+entrypoint = "pickr.py"
 # A list of globs that specify which files and directories should
 # be hidden in the workspace.
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+modules = ["python-3.10:v18-20230807-322e88b"]
 
 # Specifies which nix channel to use when building the environment.
 [nix]
@@ -94,5 +95,5 @@ ignoredPackages = ["unit_tests"]
   guessImports = true
 
 [deployment]
-run = ["python3", "manage.py", "runserver", "0.0.0.0:3000"]
+run = ["reflex", "deploy"]
 deploymentTarget = "gce"

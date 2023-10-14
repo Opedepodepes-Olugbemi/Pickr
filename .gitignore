@@ -1,7 +1,13 @@
 *.replit
 
-*.replit.nix
+replit.nix
 
 /venv
 
 db.sqlite3
+
+/.pythonlibs
+
+poetry.lock
+
+pyproject.toml

@@ -4,12 +4,15 @@ requires = ["poetry>=0.12"]
 
 [tool]
 [tool.poetry]
-authors = ["Olugbemi Tolulope"]
-description = "This is a photo feeds app for designers"
+authors = ["Olugbemi Tolulope olugbemiopedepo@gmail.com"]
+description = "This is a photo feed app that allows the mass sending of photos, that clear of a short period of time"
 name = "pickr"
 version = "0.1.0"
+license = "Proprietary"
+readme = "README.md"
+classifiers = [
+"Programming Languages : Python : 3",
+]
 [tool.poetry.dependencies]
-Django = "^3.0"
 python = "^3.8"
-pusher = "3.3.2"
 [tool.poetry.dev-dependencies]
